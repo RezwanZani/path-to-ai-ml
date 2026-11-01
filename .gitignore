@@ -1,0 +1,120 @@
+# ==========================================
+# 1. AI / Machine Learning Specifics
+# ==========================================
+# Large datasets and raw data downloads
+data/
+datasets/
+*.csv
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model weights, checkpoints, and large binaries
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.pkl
+*.pickle
+*.pb
+*.tflite
+model_weights/
+checkpoints/
+lightning_logs/
+wandb/
+outputs/
+results/
+
+# Hugging Face cache maps & downloads
+.cache/huggingface/
+.cache/torch/
+.cache/clip/
+
+# ==========================================
+# 2. Python Environment & Dependencies
+# ==========================================
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+
+# Python compilation, caching, and packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Mypy and testing cache
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 3. Jupyter Notebooks & Tools
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Optional: Uncomment if you want to force clean notebooks or ignore specific runtime states
+# .ipynb
+
+# ==========================================
+# 4. Environment Secrets & API Keys
+# ==========================================
+# Protect your OpenAI, Anthropic, HuggingFace, and AWS keys
+.env
+.env.local
+.env.*
+.openai_api_key
+.anthropic_api_key
+secrets/
+credentials.json
+*.pem
+*.key
+
+# ==========================================
+# 5. IDEs and Operating System Junk
+# ==========================================
+# Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
